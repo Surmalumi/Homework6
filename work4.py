@@ -61,6 +61,7 @@ town = TownCar(100, 'Green', 'Wolksvagen', False)
 sport = SportCar(140, 'Red', 'Ferrari', False)
 work = WorkCar(70, 'Orange', 'Kamaz', False)
 police = PoliceCar(110, 'Black',  'GMC', True)
+
 print('1:\n' + town.go(), town.show_speed(), town.turn('left'), town.turn('right'), town.stop(), town.color, town.police())
 print('2:\n' + sport.go(), sport.show_speed(), sport.turn('left'), sport.turn('left'), sport.stop(), sport.color, sport.police())
 print('3:\n' + work.go(), work.show_speed(), work.turn('right'), work.turn('right'), work.stop(), work.color, work.police())
